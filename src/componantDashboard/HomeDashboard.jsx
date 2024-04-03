@@ -6,7 +6,7 @@ export default function HomeDashboard() {
     return (
       <div className={style.HomeDashboard}>
         <LeftSideBar />
-        hello ahmed
+        
         <div className={style.centerDash}>
           <Outlet />
         </div>
