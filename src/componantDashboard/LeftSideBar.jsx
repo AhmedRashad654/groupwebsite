@@ -62,7 +62,7 @@ export default function LeftSideBar() {
         </div>
         <div className={style.secondFourth}>
           <div className={style.headsecondsecond}>
-            <NavLink to="/">
+            <NavLink to="/dashboard/userdash">
               <FontAwesomeIcon icon={faUserGroup} />
               <p> المستخدمين</p>
             </NavLink>

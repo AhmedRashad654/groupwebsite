@@ -1,18 +1,18 @@
-import React from "react";
-import styles from "../styleDashboard/AddSuperVisor.module.css";
-import { useNavigate } from "react-router-dom";
-export default function AddSuperVisor() {
-  const navigate = useNavigate()
+import React from 'react'
+import styles from '../styleDashboard/UpdateSuperVisor.module.css';
+import { useNavigate } from 'react-router-dom';
+export default function UpdateUser() {
+    const navigate = useNavigate();
   return (
     <div className={styles.AddSuperVisor}>
       <div className={styles.head}>
-        <p>المشرفون / أضافة مشرف</p>
+        <p>المستخدمون / تحديث بيانات</p>
       </div>
       <form action="" className={styles.form}>
         <div className={styles.headForm}>
           <div className={styles.input}>
             <div className={styles.inp1}>
-              <label htmlFor="">اسم المشرف</label>
+              <label htmlFor="">اسم المستخدم</label>
               <input
                 type="text"
                 placeholder="اسم المشرف"
@@ -77,7 +77,7 @@ export default function AddSuperVisor() {
               <label htmlFor="">   تاكيد كلمة المرور </label>
               <input
                 type="password"
-                placeholder="   تاكيد كلمة المرور "
+                placeholder="    تاكيد كلمة المرور"
                 className="form-control"
               />
             </div>
@@ -89,7 +89,7 @@ export default function AddSuperVisor() {
           className={`add`}
           style={{ color: "white", backgroundColor: "green" }}
         >
-          اضافة
+          تحديث
         </button>
         <button
           className={`add`}

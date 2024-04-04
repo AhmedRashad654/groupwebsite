@@ -1,37 +1,48 @@
 import React, { useState } from 'react'
 import styles from '../styleDashboard/RevolutionArchiveDash.module.css'
+import AddAMartyr from './AddAMartyr';
+import Addadetainee from './Addadetainee';
+import AddMissing from './AddMissing';
+import AddAMassacre from './AddAMassacre';
 export default function CrimesSystem() {
     const [ choiceArchife, setChoiceArchife ] = useState();
   return (
     <div>
       <div className={`headDashboard`}>
-        <p>ادخال البيانات / ارشيف الثورة</p>
+        <p>ادخال البيانات / جرائم</p>
       </div>
       <div className={styles.filterAndDisplay}>
         <div className={styles.filter}>
           <span
-            onClick={() => setChoiceArchife("archife")}
-            className={choiceArchife === "archife" ? styles.active : ""}
+            onClick={() => setChoiceArchife("martyr")}
+            className={choiceArchife === "martyr" ? styles.active : ""}
           >
-            الارشيف
+            شهيد
           </span>
           <span
-            onClick={() => setChoiceArchife("mozaharat")}
-            className={choiceArchife === "mozaharat" ? styles.active : ""}
+            onClick={() => setChoiceArchife("motaal")}
+            className={choiceArchife === "motaal" ? styles.active : ""}
           >
-            المظاهرات
+            معتقل
           </span>
           <span
-            onClick={() => setChoiceArchife("maarek")}
-            className={choiceArchife === "maarek" ? styles.active : ""}
+            onClick={() => setChoiceArchife("mafkod")}
+            className={choiceArchife === "mafkod" ? styles.active : ""}
           >
-            معارك الثوار
+            مفقود
+          </span>
+          <span
+            onClick={() => setChoiceArchife("magzara")}
+            className={choiceArchife === "magzara" ? styles.active : ""}
+          >
+            مجازر
           </span>
         </div>
       </div>
-      {/* {choiceArchife === "archife" && <Archief />}
-      {choiceArchife === "mozaharat" && <Mozaharat />}
-      {choiceArchife === "maarek" && <Maarek />} */}
+      {choiceArchife === "martyr" && <AddAMartyr />}
+      {choiceArchife === "motaal" && <Addadetainee />}
+      {choiceArchife === "mafkod" && <AddMissing />}
+      {choiceArchife === "magzara" && <AddAMassacre />}
     </div>
   );
 }

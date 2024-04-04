@@ -1,29 +1,44 @@
-import React from "react";
-import styles from "../styleDashboard/AddSuperVisor.module.css";
-import { useNavigate } from "react-router-dom";
-export default function AddSuperVisor() {
-  const navigate = useNavigate()
+import React from 'react'
+import styles from '../styleDashboard/AddSuperVisor.module.css';
+import { useNavigate } from 'react-router-dom';
+export default function AddMissing() {
+    const navigate = useNavigate();
   return (
-    <div className={styles.AddSuperVisor}>
-      <div className={styles.head}>
-        <p>المشرفون / أضافة مشرف</p>
-      </div>
+    <div>
       <form action="" className={styles.form}>
         <div className={styles.headForm}>
           <div className={styles.input}>
             <div className={styles.inp1}>
-              <label htmlFor="">اسم المشرف</label>
+              <label htmlFor="">اسم المفقود</label>
               <input
                 type="text"
-                placeholder="اسم المشرف"
+                placeholder="اسم المفقود"
                 className="form-control"
               />
             </div>
             <div className={styles.inp1}>
-              <label htmlFor=""> رقم الهاتف</label>
+              <label htmlFor=""> اسم الاب</label>
               <input
                 type="text"
-                placeholder=" رقم الهاتف"
+                placeholder="  اسم الاب"
+                className="form-control"
+              />
+            </div>
+          </div>
+          <div className={styles.input}>
+            <div className={styles.inp1}>
+              <label htmlFor=""> كنية المفقود</label>
+              <input
+                type="text"
+                placeholder=" كنية المفقود"
+                className="form-control"
+              />
+            </div>
+            <div className={styles.inp1}>
+              <label htmlFor=""> اسم الام</label>
+              <input
+                type="text"
+                placeholder=" اسم الام "
                 className="form-control"
               />
             </div>
@@ -33,54 +48,37 @@ export default function AddSuperVisor() {
               <label htmlFor=""> المواليد</label>
               <input
                 type="date"
-                placeholder=" المواليد"
+                placeholder="  المواليد"
                 className="form-control"
               />
             </div>
             <div className={styles.inp1}>
-              <label htmlFor=""> المحافظة</label>
-              <input
-                type="text"
-                placeholder=" المحافظة "
-                className="form-control"
-              />
+              <label htmlFor=""> مكان الخدث </label>
+              <select name="" id="" className="form-control">
+                <option value="">one</option>
+                <option value="">two</option>
+
+                <option value="">three</option>
+              </select>
             </div>
           </div>
           <div className={styles.input}>
             <div className={styles.inp1}>
-              <label htmlFor=""> البريد الالكتروني</label>
-              <input
-                type="email"
-                placeholder=" البريد الالكتروني"
-                className="form-control"
-              />
+              <label htmlFor=""> الجهة المسؤولة</label>
+              <select name="" id="" className="form-control">
+                <option value="">النظام</option>
+                <option value="">داعش</option>
+                <option value="">قسد</option>
+              </select>
             </div>
             <div className={styles.inp1}>
-              <label htmlFor=""> وثيقة اثبات الهوية </label>
-              <input
-                type="text"
-                placeholder="  وثيقة اثبات الهوية"
-                className="form-control"
-              />
+              <label htmlFor=""> الوثائق والملفات </label>
+              <input type="file" />
             </div>
           </div>
-          <div className={styles.input}>
-            <div className={styles.inp1}>
-              <label htmlFor="">  كلمة المرور</label>
-              <input
-                type="password"
-                placeholder="  كلمة المرور"
-                className="form-control"
-              />
-            </div>
-            <div className={styles.inp1}>
-              <label htmlFor="">   تاكيد كلمة المرور </label>
-              <input
-                type="password"
-                placeholder="   تاكيد كلمة المرور "
-                className="form-control"
-              />
-            </div>
+          <div className={styles.input1}>
+            <label htmlFor="">شرح مفصل</label>
+            <textarea name="" id="" className="form-control"></textarea>
           </div>
         </div>
       </form>

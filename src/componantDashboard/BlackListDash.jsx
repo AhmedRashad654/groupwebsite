@@ -6,7 +6,6 @@ export default function BlackListDash() {
     const [ choiceArchife, setChoiceArchife ] = useState();
   return (
     <div>
-      ahmed rashad
       <div className={`headDashboard`}>
         <p>ادخال البيانات / ارشيف الثورة</p>
       </div>

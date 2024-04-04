@@ -21,11 +21,32 @@ import RevolutionArchiveDash from './componantDashboard/RevolutionArchiveDash';
 import SymbolsoftheRevolution from './componantDashboard/SymbolsoftheRevolution';
 import BlackListDash from './componantDashboard/BlackListDash';
 import CrimesSystem from './componantDashboard/CrimesSystem';
+import UsersDash from './componantDashboard/UsersDash';
+import AddUser from './componantDashboard/AddUser';
+import UpdateUser from './componantDashboard/UpdateUser';
+import HomeUser from './componantUser/HomeUser';
+import ArchiefThourahUser from './componantUser/ArchiefThouraUser/ArchiefThourahUser';
+import SymbolThouraUser from './componantUser/SymbolThouraUser/SymbolThouraUser';
+import BlackListUser from './componantUser/BlackListUser/BlackListUser';
+import CaraemSystem from './componantUser/GaraamSystem/CaraemSystem';
+import GaraamDaaehUser from './componantUser/GaraamDaaehUser/GaraamDaaehUser';
+import GaraamQasad from './componantUser/GraamQasad/GaraamQasad';
+import MainPage from './componantUser/MainPage/MainPage';
+
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* هتبداي الراوتر من هنا يا دميانة */}
+        <Route path="/" element={<HomeUser />}>
+          <Route path="/" element={<MainPage/>} />
+          <Route path="archiefthoura" element={<ArchiefThourahUser />} />
+          <Route path="symbolthourauser" element={<SymbolThouraUser />} />
+          <Route path="blacklistuser" element={<BlackListUser />} />
+          <Route path="graamsystem" element={<CaraemSystem />} />
+          <Route path="graemqasad" element={<GaraamQasad />} />
+
+          <Route path="graemdashuser" element={<GaraamDaaehUser />} />
+        </Route>
         <Route path="dashboard" element={<HomeDashboard />}>
           <Route path="supervisor" element={<SuperVisors />} />
           <Route path="addsupervisor" element={<AddSuperVisor />} />
@@ -52,7 +73,10 @@ export default function App() {
             element={<SymbolsoftheRevolution />}
           />
           <Route path="blacklist" element={<BlackListDash />} />
-          <Route path="crimessystem" element={ <CrimesSystem/>} />
+          <Route path="crimessystem" element={<CrimesSystem />} />
+          <Route path="userDash" element={<UsersDash />} />
+          <Route path="AddUser" element={<AddUser />} />
+          <Route path="updateuser" element={<UpdateUser />} />
         </Route>
       </Routes>
     </BrowserRouter>
