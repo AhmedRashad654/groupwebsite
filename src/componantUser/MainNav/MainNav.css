@@ -27,18 +27,18 @@ h1 {
 }
 
 .btn-create {
-    background-color: var(--main-color);
-    color: white;
+    background-color: var(--main-color) !important;
+    color: white !important;
 }
 .btn-create:hover{
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--main-color) !important;
 }
 .btn-login{
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--main-color) !important;
 }
 .btn-login:hover{
-    background-color: var(--main-color);
-    color: white;
+    background-color: var(--main-color) !important;
+    color: white !important;
 }
 
 .search input {

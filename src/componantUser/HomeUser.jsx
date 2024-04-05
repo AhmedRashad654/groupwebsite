@@ -14,7 +14,7 @@ export default function HomeUser() {
       <div className="centerUser">
         <Outlet/>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
