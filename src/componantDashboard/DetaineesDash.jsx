@@ -23,6 +23,7 @@ export default function DetaineesDash() {
               <td>1</td>
               <td>علي محمد</td>
               <td>علي محمد</td>
+<<<<<<< HEAD
               <button
                 className={`add `}
                 style={{ backgroundColor: "#3B9058", color: "white" }}
@@ -32,6 +33,46 @@ export default function DetaineesDash() {
               </button>
                       </tr>
                       
+=======
+              <td>
+                <button
+                  className={`add `}
+                  style={{ backgroundColor: "#3B9058", color: "white" }}
+                  onClick={() => navigate("/dashboard/displaydetainess")}
+                >
+                  عرض
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>علي محمد</td>
+              <td>علي محمد</td>
+              <td>
+                <button
+                  className={`add `}
+                  style={{ backgroundColor: "#3B9058", color: "white" }}
+                  onClick={() => navigate("/dashboard/displaydetainess")}
+                >
+                  عرض
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>علي محمد</td>
+              <td>علي محمد</td>
+              <td>
+                <button
+                  className={`add `}
+                  style={{ backgroundColor: "#3B9058", color: "white" }}
+                  onClick={() => navigate("/dashboard/displaydetainess")}
+                >
+                  عرض
+                </button>
+              </td>
+            </tr>
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
           </tbody>
         </table>
       </div>

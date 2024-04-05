@@ -12,3 +12,12 @@
   min-height: 95vh;
    background-color: #f7f7f7;
 }
+<<<<<<< HEAD
+=======
+@media(max-width:990px){
+  .centerDash{
+  width:78%;
+
+  }
+}
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32

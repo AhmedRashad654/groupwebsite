@@ -28,6 +28,7 @@ import HomeUser from './componantUser/HomeUser';
 import ArchiefThourahUser from './componantUser/ArchiefThouraUser/ArchiefThourahUser';
 import SymbolThouraUser from './componantUser/SymbolThouraUser/SymbolThouraUser';
 import BlackListUser from './componantUser/BlackListUser/BlackListUser';
+<<<<<<< HEAD
 import BaraemSystem from './componantUser/GaraamSystem/BaraemSystem';
 import GaraamDaaehUser from './componantUser/GaraamDaaehUser/GaraamDaaehUser';
 import GaraamQasad from './componantUser/GraamQasad/GaraamQasad';
@@ -83,5 +84,68 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+=======
+import CaraemSystem from './componantUser/GaraamSystem/CaraemSystem';
+import GaraamDaaehUser from './componantUser/GaraamDaaehUser/GaraamDaaehUser';
+import GaraamQasad from './componantUser/GraamQasad/GaraamQasad';
+import MainPage from './componantUser/MainPage/MainPage';
+import { ContextProvider } from './context/Context';
+
+export default function App() {
+  return (
+    <ContextProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomeUser />}>
+            <Route path="/" element={<MainPage />} />
+            <Route path="archiefthoura" element={<ArchiefThourahUser />} />
+            <Route path="symbolthourauser" element={<SymbolThouraUser />} />
+            <Route path="blacklistuser" element={<BlackListUser />} />
+            <Route path="graamsystem" element={<CaraemSystem />} />
+            <Route path="graemqasad" element={<GaraamQasad />} />
+
+            <Route path="graemdashuser" element={<GaraamDaaehUser />} />
+          </Route>
+          <Route path="dashboard" element={<HomeDashboard />}>
+            <Route path="supervisor" element={<SuperVisors />} />
+            <Route path="addsupervisor" element={<AddSuperVisor />} />
+            <Route path="updatesupervisor" element={<UpdateSupervisors />} />
+            <Route path="martyrs" element={<MartyrsDash />} />
+            <Route path="displaymartyrs" element={<DisplayMartysDash />} />
+            <Route path="detaineesdash" element={<DetaineesDash />} />
+            <Route
+              path="displaydetainess"
+              element={<DisplayDestainessDash />}
+            />
+            <Route path="missingdash" element={<MissingDash />} />
+            <Route path="displaymissing" element={<DisplayMissingDash />} />
+            <Route path="warcriminals" element={<WarCriminals />} />
+            <Route
+              path="displaywarcriminals"
+              element={<DisplayWarCriminals />}
+            />
+            <Route path="traitors" element={<TraitorsDash />} />
+            <Route path="displaytraitor" element={<DisplayTraitorsDash />} />
+            <Route path="honorcard" element={<HonorCard />} />
+            <Route path="displayhonorcard" element={<DisplayHonorCard />} />
+            <Route path="lastnewsdash" element={<LastNewsDash />} />
+            <Route
+              path="revolutionarchivedash"
+              element={<RevolutionArchiveDash />}
+            />
+            <Route
+              path="symbolsoftherevolution"
+              element={<SymbolsoftheRevolution />}
+            />
+            <Route path="blacklist" element={<BlackListDash />} />
+            <Route path="crimessystem" element={<CrimesSystem />} />
+            <Route path="userDash" element={<UsersDash />} />
+            <Route path="AddUser" element={<AddUser />} />
+            <Route path="updateuser" element={<UpdateUser />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </ContextProvider>
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
   );
 }

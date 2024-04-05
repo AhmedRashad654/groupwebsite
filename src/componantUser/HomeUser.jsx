@@ -14,7 +14,11 @@ export default function HomeUser() {
       <div className="centerUser">
         <Outlet/>
       </div>
+<<<<<<< HEAD
       <Footer/>
+=======
+      <Footer />
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
     </div>
   )
 }
