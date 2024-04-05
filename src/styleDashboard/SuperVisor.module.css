@@ -1,0 +1,41 @@
+.SuperVisor {
+  width: 100%;
+  height: 100%;
+}
+
+.head p {
+  background-color: #0d3a5a;
+  padding: 10px 20px 15px 0;
+  color: white;
+  transform: translateY(20px);
+  font-size: 14px;
+}
+.search {
+  margin-top: 40px;
+  width: 40%;
+  margin-right: 20px;
+  position: relative;
+}
+.search input {
+  padding-right: 50px;
+}
+.sd {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
+.add {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  bottom: 3%;
+}
+.spanradiues{
+  display: inline-block;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+
+
+}

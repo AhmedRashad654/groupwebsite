@@ -1,0 +1,31 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.details h6 {
+  color: #3035a1;
+}
+.detailsright h6 {
+  display: inline-block;
+}
+.detailsright p {
+  display: inline-block;
+}
+.allDetailseRight {
+  width: 45%;
+}
+.detailsLeft {
+  width: 45%;
+}
+.btnbottom {
+    display: flex;
+    gap: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+}
