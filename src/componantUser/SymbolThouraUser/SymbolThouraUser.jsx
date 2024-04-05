@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Liberated from '../SectionsUser/Liberated/Liberated'
 import style from './SymbolThouraUser.module.css'
 import SliderSymbolThouraUser from './SliderSymbolThouraUser'
@@ -22,5 +23,11 @@ export default function SymbolThouraUser() {
           <SliderSymbolThouraUser/>
     
     </>
+=======
+
+export default function SymbolThouraUser() {
+  return (
+    <div>SymbolThouraUser</div>
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
   )
 }

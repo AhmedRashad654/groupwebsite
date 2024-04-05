@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import './BlackListUser.css'
 import FlagBlackList from './FlagBlackList';
  import SliderBlackList from './SliderBlackList'
@@ -27,3 +28,11 @@ export default function BlackListUser() {
 }
 
     
+=======
+
+export default function BlackListUser() {
+  return (
+    <div>BlackListUser</div>
+  )
+}
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32

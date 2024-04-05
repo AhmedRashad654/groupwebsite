@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import LiberatedArchief from './LiberatedArchief'
 import FlagArchief from './FlagArchief'
 
@@ -22,5 +23,11 @@ export default function ArchiefThourahUser() {
       <FlagArchief/>
 
     </>
+=======
+
+export default function ArchiefThourahUser() {
+  return (
+    <div>ArchiefThourahUser</div>
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
   )
 }

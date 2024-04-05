@@ -7,6 +7,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   direction: rtl;
+<<<<<<< HEAD
+=======
+ font-family: cairo, sans-serif;
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
 }
 
 code {
@@ -33,6 +37,14 @@ code {
   transform: translateY(20px);
   font-size: 14px;
 }
+<<<<<<< HEAD
+=======
+@media(max-width:900px){
+  .headDashboard p{
+    font-size: 10px;
+  }
+}
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
 table {
   width: 100%;
   margin-top: 30px;
@@ -46,6 +58,18 @@ tr,
 td,
 th {
   padding: 7px 0;
+<<<<<<< HEAD
+=======
+  font-size: 13px;
+}
+@media(max-width:900px){
+  tr,
+td,
+th {
+  padding: 7px 0;
+  font-size: 10px;
+}
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
 }
 table td {
   text-align: center;

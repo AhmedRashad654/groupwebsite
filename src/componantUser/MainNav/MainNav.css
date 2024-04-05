@@ -27,6 +27,7 @@ h1 {
 }
 
 .btn-create {
+<<<<<<< HEAD
     background-color: var(--main-color);
     color: white;
 }
@@ -39,6 +40,20 @@ h1 {
 .btn-login:hover{
     background-color: var(--main-color);
     color: white;
+=======
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+.btn-create:hover{
+    border: 1px solid var(--main-color) !important;
+}
+.btn-login{
+    border: 1px solid var(--main-color) !important;
+}
+.btn-login:hover{
+    background-color: var(--main-color) !important;
+    color: white !important;
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
 }
 
 .search input {

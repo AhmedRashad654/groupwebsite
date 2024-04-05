@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import RegimeMassacres from '../SectionsUser/RegimeMassacres/RegimeMassacresUser'
 import Martyrs from '../SectionsUser/Martyrs/MartyrsUser'
 import Missing from '../SectionsUser/Missing/MissingUser'
@@ -22,5 +23,11 @@ export default function GaraamQasad() {
         <SliderGraamQasad/>
 
     </>
+=======
+
+export default function GaraamQasad() {
+  return (
+    <div>GaraamQasad</div>
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
   )
 }

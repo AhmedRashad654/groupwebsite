@@ -25,7 +25,11 @@ export default function Navbar() {
                   isActive,
                 }) => (isActive ? "active" : "")}`}
                 aria-current="page"
+<<<<<<< HEAD
                 to="/"
+=======
+                to="#"
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
               >
                 الرئيسية
               </NavLink>
@@ -95,7 +99,13 @@ export default function Navbar() {
                 جرائم النظام{" "}
                 <i className="fa-solid fa-greater-than text-muted"></i>
                 <div className="evolution-archive-hover">
+<<<<<<< HEAD
                   <NavLink className="nav-link text-white">مجاز النظام </NavLink>
+=======
+                  <NavLink className="nav-link text-white">
+                    مجازر النظام
+                  </NavLink>
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
                   <NavLink className="nav-link text-white">الشهداء</NavLink>
                   <NavLink className="nav-link text-white">المفقودين</NavLink>
                   <NavLink className="nav-link text-white">المعتقلين</NavLink>
@@ -110,12 +120,15 @@ export default function Navbar() {
               >
                 جرائم قسد{" "}
                 <i className="fa-solid fa-greater-than text-muted"></i>
+<<<<<<< HEAD
                 <div className="evolution-archive-hover">
                   <NavLink className="nav-link text-white">مجاز قسد  </NavLink>
                   <NavLink className="nav-link text-white">الشهداء</NavLink>
                   <NavLink className="nav-link text-white">المفقودين</NavLink>
                   <NavLink className="nav-link text-white">المعتقلين</NavLink>
                 </div>
+=======
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
               </NavLink>
             </li>
             <li className="nav-item">
@@ -126,12 +139,15 @@ export default function Navbar() {
               >
                 جرائم داعش{" "}
                 <i className="fa-solid fa-greater-than text-muted"></i>
+<<<<<<< HEAD
                 <div className="evolution-archive-hover">
                   <NavLink className="nav-link text-white">مجاز داعش  </NavLink>
                   <NavLink className="nav-link text-white">الشهداء</NavLink>
                   <NavLink className="nav-link text-white">المفقودين</NavLink>
                   <NavLink className="nav-link text-white">المعتقلين</NavLink>
                 </div>
+=======
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
               </NavLink>
             </li>
           </ul>

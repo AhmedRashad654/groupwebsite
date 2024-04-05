@@ -41,3 +41,15 @@
   justify-content: center;
   margin: 30px 0;
 }
+<<<<<<< HEAD
+=======
+.AddSuperVisor input{
+  padding: 4px;
+}
+.AddSuperVisor input::placeholder{
+  font-size: 9px;
+}
+.AddSuperVisor label{
+  font-size: 12px;
+}
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32

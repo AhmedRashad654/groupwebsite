@@ -2,10 +2,19 @@
   width: 20%;
   height: 850px;
   background-color: #1e5e8a;
+<<<<<<< HEAD
 }
 .LeftSideBar a {
   padding-right: 15px;
   text-decoration: none;
+=======
+  font-size:13px;
+}
+
+.LeftSideBar a {
+  text-decoration: none;
+  padding-right: 10px;
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
 }
 .LeftSideBar .first {
   text-align: center;
@@ -17,12 +26,20 @@
   border-radius: 50%;
   border: 5px solid #606781;
 }
+<<<<<<< HEAD
 .LeftSideBar .first h6 {
+=======
+.LeftSideBar .first p {
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
   margin-top: 0;
   color: white;
 }
 .second {
+<<<<<<< HEAD
   padding: 0 20px;
+=======
+  padding: 0 15px;
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
 }
 .second a {
   color: white;
@@ -59,6 +76,22 @@
   gap: 10px;
   padding-bottom: 15px;
 }
+<<<<<<< HEAD
 .listSecondSecond a {
   padding-right: 50px;
 }
+=======
+@media(min-width:850px){
+  .listSecondSecond a {
+  padding-right: 50px;
+}
+}
+@media(max-width:1000px){
+  .listSecondSecond a {
+  padding:0 5px;
+}
+  .LeftSideBar{
+    width: fit-content;
+}
+}
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32

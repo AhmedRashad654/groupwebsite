@@ -8,6 +8,7 @@
 
 .details h6 {
   color: #3035a1;
+<<<<<<< HEAD
 }
 .detailsright h6 {
   display: inline-block;
@@ -15,6 +16,18 @@
 .detailsright p {
   display: inline-block;
 }
+=======
+  font-size: 14px;
+}
+.details p,.detailsLeft {
+  font-size: 13px;
+
+}
+.detailsright h6 ,.detailsright p{
+  display: inline-block;
+}
+
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
 .allDetailseRight {
   width: 45%;
 }
@@ -29,3 +42,14 @@
   transform: translateX(-50%);
   bottom: 5%;
 }
+<<<<<<< HEAD
+=======
+@media(max-width:900px){
+  .details{
+    flex-direction: column;
+  }
+  .allDetailseRight ,.detailsLeft{
+    width: 90%;
+  }
+}
+>>>>>>> 99896543be0d4cc1521fbfdaf7fade5447260f32
